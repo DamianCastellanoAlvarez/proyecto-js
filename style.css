@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*titulo*/
+
+#titulo-js{
+	font-size: 200px;
+	color: #7f3791;
+	font-family: 'LuckiestGuy-Regular';
+	src: url(./tipografia/LuckiestGuy-Regular.ttf);
+
+	width: 100%;
+	color: transparent;
+	text-transform: uppercase;
+	background-image: url('./gif/pacman.gif');
+	background-size: cover;
+	background-position-y: 700px;	
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+@font-face {
+    font-family: 'LuckiestGuy-Regular';
+    src: url(./tipografia/LuckiestGuy-Regular.ttf);
+}
+
+
+.btn-danger{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+
+.btn-buscar{
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+
+
+.paren{
+	color: #7f3791;
+}
+
+/*estilo del boton cambiar fondo*/
+
+
+.psalir{
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+}
+
+
+
+.btns{
+		border-radius: 10px;
+		background-size: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: fixed;
+		bottom: 30px;
+		right: 10px;
+	
+}
+.btns:hover{
+    background: #7f3791;
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+/*buscador*/
+
+
+
+
+.filtro{
+    display: none;
+}
+
+
+/*peliculas*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+
+
+/*titulo*/
+
